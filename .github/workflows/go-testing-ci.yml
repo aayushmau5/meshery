@@ -50,6 +50,8 @@ jobs:
           fetch-depth: 2
       - name: Install lynx for xdg-open support
         run: sudo apt-get install lynx
+      - name: Install firefox for xdg-open support
+        run: sudo apt-get install firefox
       - name: Setup Go
         uses: actions/setup-go@v2
         with:
